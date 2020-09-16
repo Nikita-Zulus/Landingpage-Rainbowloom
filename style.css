@@ -1,0 +1,357 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 18px/22px 'PT Sans', sans-serif;
+	width: 100%;
+	min-width: 1100px;
+}
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	position:relative;
+}
+/* Typography
+-----------------------------------------------------------------------------*/
+h1 {font-size:35px;font-weight:bold;font-family: 'Comfortaa', cursive;}
+h2 {font-size:22px;font-weight:normal;font-family: 'Comfortaa', cursive;margin-top:20px;}
+
+a {text-decoration:underline;color:#008aff;}
+a:hover {color:#0075d9;}
+
+.oldprice, .oldprice1 {position:relative;}
+.oldprice:before {border-bottom:1px solid #000;position:absolute;content:"";width:100%;height:62%;transform:rotate(-14deg);}
+.oldprice1:before {border-bottom:1px solid #000;position:absolute;content:"";width:100%;height:50%;transform:rotate(-14deg);}
+
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {height: 750px;background: url("images/header-bg.jpg")/*tpa=http://rainbow-loom.com.ru/images/header-bg.jpg*/ center top no-repeat;}
+.logo img {float:left;margin:50px 0 0 0;}
+.cont {position:absolute;top:20px;right:0px;font-size:24px;text-align:center;}
+.cont span {font-size:14px;}
+.rbpic {float:right;margin:223px 331px 0 0;}
+.headcont {float:left;position:absolute;margin:322px 0 0 10px;}
+.headcont p {text-align:center;font-size:48px;font-weight:normal;line-height:62px;font-family: 'Comfortaa', cursive;}
+.headcont span {font-size:54px;font-weight:bold;}
+.headcontmore {float:left;font-weight:bold;margin:11px 0 0 10px;}
+.headcontmore ul li {background: url('images/marker.png')/*tpa=http://rainbow-loom.com.ru/images/marker.png*/ 0 center no-repeat;padding-left:30px;line-height:32px;}
+.headcontmore p {margin:19px 0 0 0;}
+
+.sep {height:28px;width: 100%;background:url("images/sep.jpg")/*tpa=http://rainbow-loom.com.ru/images/sep.jpg*/ 0 0 repeat-x;clear:both;}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {position:relative;}
+.titleblock {text-align:center;padding:45px 0 45px 0;clear:both;}
+.titleblockr {text-align:center;padding:45px 0 45px 300px;clear:both;}
+.scrwrapper {float:left;padding-bottom:50px;width:1100px;}
+/* Screen 01
+------------------------------------*/
+.scr1-1, .scr1-2, .scr1-3 {width:320px;float:left;text-align:center;margin:0 10px;}
+.scr1-2 {margin:0 50px;}
+.scr1-1 p, .scr1-2 p, .scr1-3 p {margin-top:20px;}
+.scr1-1 img {border:7px solid #43c82c;}
+.scr1-2 img {border:7px solid #e02164;}
+.scr1-3 img {border:7px solid #2cadf6;}
+/* Screen 02 (Items)
+------------------------------------*/
+.itemstwrap, .itemxtwrap, .itemst, .itemxt {float:left;}
+.itemstwrap {margin:0 20px 0 20px;padding-bottom:20px;background:url("images/shadow.png")/*tpa=http://rainbow-loom.com.ru/images/shadow.png*/ center bottom no-repeat;}
+.itemxtwrap {margin:0 12px 0 12px;padding-bottom:20px;background:url("images/shadow.png")/*tpa=http://rainbow-loom.com.ru/images/shadow.png*/ center bottom no-repeat;}
+.itemst, .itemxt {width:323px;padding-bottom:27px;border:1px solid #f1c435;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+.itemst {background:#fff;}
+.itempic {width:270px;height:150px;margin:27px 27px 20px 27px;}
+.itemxt {background:#fcfbdf;}
+.itemxt img {position:absolute; margin:-22px 0 0 23px;}
+.itemxt .itemname {height:66px;padding-top:238px;overflow:hidden;}
+.itemname {font-weight:bold;}
+.itemname, .itemdescr, .itemprice {text-align:center;}
+.itemdescr {height:80px;overflow:hidden;}
+.itemdescr {margin:5px 24px 0 24px;line-height:20px;}
+.itemdescr, .itemprice {font-size:16px;}
+.itemprice {margin:10px 24px 0 24px;}
+.itemprice span {font-size:24px;font-weight:bold;}
+.sale {width:92px;height:92px;background:url("images/sale.png")/*tpa=http://rainbow-loom.com.ru/images/sale.png*/ 0 0 no-repeat;position:absolute; margin:130px 0 0 27px;padding-top:26px;font-size:14px;text-align:center;line-height:18px;box-sizing:border-box;}
+.sale span {font-weight:bold;font-size:16px;color:#fff;}
+
+.countdowntitle {position:absolute; margin:10px 0 0 8px; font-size:13px;font-weight:bold;color:#ff0000;}
+.countdownbg {width:180px;height:52px;background:url("images/countdownbg.png")/*tpa=http://rainbow-loom.com.ru/images/countdownbg.png*/ 0 0 no-repeat;position:absolute; margin:20px 0 0 -21px;padding:20px 0 0 24px;}
+
+.itembutton1, .itembutton2 {width:209px;height:38px;cursor:pointer;margin:12px 57px 0 57px;text-align:center;color:#fff;position:relative;padding:8px;box-sizing:border-box;text-decoration:none;}
+.itembutton1 {background:url("images/buttons.png")/*tpa=http://rainbow-loom.com.ru/images/buttons.png*/ 0 0 no-repeat;display:block;}
+.itembutton1:hover {background:url("images/buttons.png")/*tpa=http://rainbow-loom.com.ru/images/buttons.png*/ 0 -38px no-repeat;display:block;color:#fff;}
+.itembutton2 {background:url("images/buttons.png")/*tpa=http://rainbow-loom.com.ru/images/buttons.png*/ 0 -80px no-repeat;display:block;}
+.itembutton2:hover {background:url("images/buttons.png")/*tpa=http://rainbow-loom.com.ru/images/buttons.png*/ 0 -118px no-repeat;display:block;color:#fff;}
+
+.delivery-wrap {text-align:center;}
+.delivery {position: relative;margin: 25px auto 0 auto;background:url("images/car.png")/*tpa=http://rainbow-loom.com.ru/images/car.png*/ 0 0 no-repeat;padding:0 0 0 75px;display:inline-block;}
+.delivery span {font-weight:bold;color:#1ea54c;}
+
+.circle1, .circle2, .circle3, .circle4 {position:absolute;}
+.circle1 {top:0px;left:-100px;z-index:-1;}
+.circle2 {top:300px;left:-75px;}
+.circle3 {top:50px;right:-50px;}
+.circle4 {top:450px;right:-75px;z-index:-1;}
+
+/*Screen 03 (Slideshow)
+------------------------------------*/
+.slideshow {position:relative;margin:0 25px 0 25px;width:1050px;height:300px;z-index:65;}
+.slideshow .image {border-width: 0;left: 0;top: 0;width:1050px;height:300px;}
+.itembutton3 {width:554px;height:51px;cursor:pointer;margin:42px auto 0;text-align:center;color:#fff;position:relative;padding:14px;box-sizing:border-box;text-decoration:none;font-size:21px;}
+.itembutton3 {background:url("images/buttons.png")/*tpa=http://rainbow-loom.com.ru/images/buttons.png*/ 0 -160px no-repeat;display:block;}
+.itembutton3:hover {background:url("images/buttons.png")/*tpa=http://rainbow-loom.com.ru/images/buttons.png*/ 0 -211px no-repeat;display:block;color:#fff;}
+
+/*Screen 06 Reasons
+------------------------------------*/
+.scr6-bg {background:url("images/6-bg.jpg")/*tpa=http://rainbow-loom.com.ru/images/6-bg.jpg*/ 0 0;float: left;width: 100%;}
+.r-col1 {width:540px;padding:0 0 0 10px;float:left;}
+.r-col2 {width:550px;padding:0 0 0 0;float:left;}
+.reason-wrap {clear:both;padding-bottom:38px;float:left;}
+.reason-number {background:url("images/rs-icon.png")/*tpa=http://rainbow-loom.com.ru/images/rs-icon.png*/ 0 0 no-repeat;width:40px;height:40px;float:left;font-weight:bold;font-size:22px;box-sizing:border-box;padding-top:9px;margin-top:3px;text-align:center;}
+.reason-descr {padding:0 0 0 60px;font-size:21px;line-height:30px;}
+.clear {clear:both;}
+
+/*Screen 07 Reply
+------------------------------------*/
+.scr7-bg {background:url("images/7-bg.jpg")/*tpa=http://rainbow-loom.com.ru/images/7-bg.jpg*/ center 0 no-repeat;float: left;width: 100%;}
+.reply {width:330px;font-style:italic;font-size:16px;line-height:18px;float:left;}
+.reply img {float:left;padding:0 12px 0 0;}
+.reply span {font-style:normal;font-size:16px;font-weight:bold;line-height:22px;}
+.replywrap1 {padding:50px 15px 0 15px;float:right;}
+.replywrap2 {padding:50px 15px 50px 15px;float:right;}
+.reply {padding:0 25px 0 0;}
+.quote1 {position:absolute;top:335px;left:0px;}
+.quote2 {position:absolute;top:465px;right:15px;}
+
+/*Screen 08
+------------------------------------*/
+.scr8-bg {background:url("images/8-bg.jpg")/*tpa=http://rainbow-loom.com.ru/images/8-bg.jpg*/ center 50px no-repeat;float: left;width: 100%;height:900px;}
+.s8-col1 {width:520px;padding:0 30px 0 0;float:left;}
+.s8-col2 {width:505px;padding:0 30px 0 15px;float:left;}
+.scr8title {font-size:28px;text-align:center;}
+.delivery-1-wrap {padding-top:25px;}
+.delivery-1 {width:355px;float:left;padding:0 0 12px 0;}
+.delivery-1-1,  .delivery-1-2,  .delivery-1-3,  .delivery-1-4,  .delivery-1-5  {padding-left:30px;margin-bottom:10px;width:325px;float:left;}
+.delivery-1-1 {background:url("images/ico01.png")/*tpa=http://rainbow-loom.com.ru/images/ico01.png*/ 0 center no-repeat;}
+.delivery-1-2 {background:url("images/ico02.png")/*tpa=http://rainbow-loom.com.ru/images/ico02.png*/ 0 center no-repeat;}
+.delivery-1-3 {background:url("images/ico03.png")/*tpa=http://rainbow-loom.com.ru/images/ico03.png*/ 0 center no-repeat;}
+.delivery-1-4 {background:url("images/ico04.png")/*tpa=http://rainbow-loom.com.ru/images/ico04.png*/ 0 center no-repeat;}
+.delivery-1-5 {background:url("images/ico05.png")/*tpa=http://rainbow-loom.com.ru/images/ico05.png*/ 0 center no-repeat;}
+.delivery-img {padding:25px 12px 0 0;float:left;}
+.delivery-2 {background:url("images/marker.png")/*tpa=http://rainbow-loom.com.ru/images/marker.png*/ 0 1px no-repeat;padding-left:30px;margin-bottom:10px;width:275px;float:left;}
+.scrwrapper8 {padding-bottom:120px;}
+.delivery-3 {padding:10px 0 12px 0;}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {height: 385px;}
+.sep1 {height:8px;width: 100%;background:url("images/sep1.jpg")/*tpa=http://rainbow-loom.com.ru/images/sep1.jpg*/ 0 0 repeat-x;clear:both;}
+
+.f-content {min-height:280px;margin:50px 0 45px 0;padding:0 0 0 192px; background: url("images/girl-f.png")/*tpa=http://rainbow-loom.com.ru/images/girl-f.png*/ 15px 0 no-repeat;}
+.f-content1 {margin:34px 0 0 0;font-weight:bold;}
+.f-content2 {margin:15px 0 0 0;}
+.f-content3 {margin:26px 0 0 0;font-size:16px;}
+.f-cont {position:absolute;top:0px;right:0px;font-size:24px;text-align:center;}
+.f-cont span {font-size:14px;}
+.phone-f {position:absolute;top:21px;right:126px;}
+.phone2-f {position:absolute;top:-6px;right:266px;}
+
+/* Countdown
+-----------------------------------------------------------------------------*/
+#wb_Text33 div {text-align: left;}
+        .countdownHolder
+        {
+            width: 190px;
+            margin:0 auto;
+            font: 16px/1.5 'PT Sans',sans-serif;
+            text-align: left;
+            letter-spacing:-9px;
+        }
+        .position
+        {
+            display: inline-block;
+            height: 1.6em;
+            overflow: hidden;
+            position: relative;
+            width: 1.05em;
+        }
+        .digit
+        {
+            position:absolute;
+            display:block;
+            width:1em;
+            background-color:#444;
+            border-radius:0.2em;
+            text-align:center;
+            color:#000000;
+            letter-spacing:-1px;
+        }
+        .digit.static
+        {
+            box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);
+            background-image: linear-gradient(bottom, #ffffff 50%, #ffffff 50%);
+            background-image: -o-linear-gradient(bottom, #ffffff 50%, #ffffff 50%);
+            background-image: -moz-linear-gradient(bottom, #ffffff 50%, #ffffff 50%);
+            background-image: -webkit-linear-gradient(bottom, #ffffff 50%, #ffffff 50%);
+            background-image: -ms-linear-gradient(bottom, #ffffff 50%, #ffffff 50%);
+            background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.5, #ffffff),color-stop(0.5, #ffffff));
+        }
+        .countDays{ display:none !important; }
+        .countDiv0{ display:none !important; }
+        .countHours{}
+        .countDiv1{}
+        .countMinutes{}
+        .countDiv2{}
+        .countSeconds{}
+        .countDiv
+        {
+            display:inline-block;
+            width:16px;
+            height:1.6em;
+            position:relative;
+        }
+        .countDiv:before,.countDiv:after
+        {
+            position:absolute;
+            width:3px;
+            height:3px;
+            background-color:#ffffff;
+            border-radius:50%;
+            left:50%;
+            margin-left:-3px;
+            top:0.5em;
+            content:'';
+        }
+        .countDiv:after
+        {
+            top:0.9em;
+        }
+    .sq-color
+    {
+        height:25px;
+        width: 25px;
+        border:  1px solid black;
+    }
+	
+/* Item Page
+-----------------------------------------------------------------------------*/
+.itemheader {text-align:center;height:160px;border-bottom:4px solid #f8dd34;}
+.logov2 img {margin-top:35px;}
+.itembodybg {background:url("images/8-bg.jpg")/*tpa=http://rainbow-loom.com.ru/images/8-bg.jpg*/ center -225px no-repeat;float: left;width: 100%;}
+.itempagewrap {background: rgba(255,255,255,.85);padding:0 50px 90px 50px;width:1000px;}
+.itemnav {padding:35px 0 45px 0;}
+.itempageinfo {float:left;width:640px;padding-left:30px;}
+.itempageinfo span {font-weight:bold;}
+.itempageinfo ul li {background: url('images/marker.png')/*tpa=http://rainbow-loom.com.ru/images/marker.png*/ 0 5px no-repeat;padding-left:30px;margin-bottom:6px;line-height:32px;}
+.itempageinfo ul {margin-top:12px;}
+.itempagebutton {width:209px;height:38px;cursor:pointer;margin:25px auto 0;text-align:center;color:#fff;padding:8px;box-sizing:border-box;text-decoration:none;}
+
+.itempagewrap .itembutton1 {display:none;}
+.itempagebutton {display:block !important;}
+
+/* Pop-up
+-----------------------------------------------------------------------------*/
+.button3 {width:233px;height:38px;cursor:pointer;text-align:center;color:#fff;position:relative;padding:8px;box-sizing:border-box;text-decoration:none;}
+.button3 {background:url("images/popup/button3.png")/*tpa=http://rainbow-loom.com.ru/images/popup/button3.png*/ 0 0 no-repeat;display:block;}
+.button3:hover {background:url("images/popup/button3h.png")/*tpa=http://rainbow-loom.com.ru/images/popup/button3h.png*/ 0  0 no-repeat;display:block;color:#fff;}
+.fix1 {font-size:15px;color:#fff;}
+.fix2 {font-weight:bold;}
+.fix3 {font-size:16px;}
+.fix4 {line-height:50px;}
+
+.popupitem {position:absolute;padding-top:0px;float:left; width:330px;}
+.popupitem01 {position:absolute;left:32px;}
+.popupitem02 {position:absolute;left:471px;padding-top:32px;}
+.popupitem03 {position:absolute;left:862px;}
+.popupitem .itembutton1 {display:none;} 
+.popupitem .itembutton2 {display:none;} 
+.popupitem01 .itembutton1 {display:none;} 
+.popupitem .itemst {border:0px;}
+.popupitem .itemxt {border:0px;} 
+.popupitem .itemst {width:375px;} 
+.popupitem .itemst .itemprice {margin:20px auto 0px;} 
+.popupitem .itemxt .itemname {padding-top:228px;line-height:18px;} 
+.popupitem .itemxt .itemprice {margin:0px auto;} 
+.popupitem .itempic {margin:27px 27px 20px 50px;}
+.popupitem .countdownbg {
+	border:0px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	background: #ec1f25;
+	background: -moz-linear-gradient(left,  #ec1f25 0%, #a60004 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ec1f25), color-stop(100%,#a60004));
+	background: -webkit-linear-gradient(left,  #ec1f25 0%,#a60004 100%);
+	background: -o-linear-gradient(left,  #ec1f25 0%,#a60004 100%);
+	background: -ms-linear-gradient(left,  #ec1f25 0%,#a60004 100%);
+	background: linear-gradient(to right,  #ec1f25 0%,#a60004 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1f25', endColorstr='#a60004',GradientType=1 );
+	width:132px;height:25px;margin:0px;top:56px; left:0px;padding:8px 10px;}
+.popupitem .countdowntitle {margin:2px 0 0 0px;}
+.crutch1 {position:absolute;width:414px;height:473px;top:0px; left:429px;background:#fcfbdf;border-left:1px dashed #f1c435;border-right:1px dashed #f1c435;z-index: -1;}
+.crutch2 {position:absolute;width:1230px;height:472px;top:0px; left:10px;border-bottom:1px dashed #f1c435;z-index: -1;}
+.fix5 {top:398px !important;}
+.fix6 {top:397px !important;}
+.fix7 {top:435px !important;}
+.fix8 {top:433px !important;}
+.fix9 {top:483px !important;}
+.fix10 {top:491px !important;}
+/* Pop-up 3
+-----------------------------------------------------------------------------*/
+.popup3 {background:url("images/6-bg.jpg")/*tpa=http://rainbow-loom.com.ru/images/6-bg.jpg*/;padding:45px 45px;text-align:center;height:450px;box-sizing:border-box;}
+.popup3title {font-size:35px;padding-bottom:35px;}
+#popup3cont {line-height:36px;padding-bottom:28px;}
+
+
+/* yandexreview
+-----------------------------------------------------------------------------*/
+.hor_buts {padding-left: 300px;}
+.hor_buts_left {float: left; padding-left: 120px;}
+.hor_buts_right {float: right; padding-right: 120px;}

@@ -1,0 +1,1283 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+	border: 0px none;
+	font: inherit;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+}
+body
+{
+	line-height: 1;
+}
+ol, ul
+{
+	list-style: outside none none;
+}
+body
+{
+	font: 18px/22px "PT Sans",sans-serif;
+	min-width: 1100px;
+	width: 100%;
+}
+.wrapper
+{
+	margin: 0px auto;
+	position: relative;
+	width: 1100px;
+}
+
+h1
+{
+	font-family: "Comfortaa",cursive;
+	font-size: 35px;
+	font-weight: bold;
+}
+h2
+{
+	font-family: "Comfortaa",cursive;
+	font-size: 22px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+a
+{
+	color: rgb(0, 138, 255);
+	text-decoration: underline;
+}
+a:hover
+{
+	color: rgb(0, 117, 217);
+}
+.oldprice, .oldprice1
+{
+	position: relative;
+}
+.oldprice:before
+{
+	border-bottom: 1px solid rgb(0, 0, 0);
+	content: "";
+	height: 62%;
+	position: absolute;
+	transform: rotate(-14deg);
+	width: 100%;
+}
+.oldprice1:before
+{
+	border-bottom: 1px solid rgb(0, 0, 0);
+	content: "";
+	height: 50%;
+	position: absolute;
+	transform: rotate(-14deg);
+	width: 100%;
+}
+.header
+{
+	background: url('header-bg.jpg')/*tpa=http://marktshop.ru/header-bg.jpg*/ no-repeat scroll center top transparent;
+	height: 750px;
+}
+.logo img
+{
+	float: left;
+	margin: 50px 0px 0px;
+}
+.cont
+{
+	font-size: 31px;
+	position: absolute;
+	right: -70px;
+	text-align: center;
+	top: 20px;
+	color:red;
+}
+.cont b {
+	color:black;
+}
+.cont span
+{
+	font-size: 14px;
+}
+.rbpic
+{
+	float: right;
+	margin: 223px 331px 0px 0px;
+}
+.headcont
+{
+	float: left;
+	margin: 215px 0px 0px 10px;
+	position: absolute;
+}
+.action {
+	margin-top:20px;
+	float:left;
+	text-align:center;
+	margin-left:40px;
+}
+.headcont b {
+	color:red;
+}
+.a-text {
+	font-size:62px;
+	line-height:58px;
+	color:red;
+	margin-top:-15px;
+}
+
+.a-text2 {
+	font-size:32px;
+	line-height:30px;
+	
+}
+
+.button-order a {
+background: url('button.png')/*tpa=http://marktshop.ru/button.png*/ no-repeat scroll 0px 0px transparent;
+width: 451px;
+height: 109px;
+line-height: 109px;
+display: block;
+position: absolute;
+text-transform: uppercase;
+font-size: 48px;
+color: rgb(255, 255, 255);
+text-align: center;
+font-weight: 700;
+float:left;
+color:white;
+margin-top:20px;
+}
+
+.button-order2 a {
+background: url('button2.png')/*tpa=http://marktshop.ru/button2.png*/ no-repeat scroll 0px 0px transparent;
+width: 251px;
+height: 60px;
+line-height: 60px;
+display: block;
+position: absolute;
+text-transform: uppercase;
+font-size: 29px;
+color: rgb(255, 255, 255);
+text-align: center;
+font-weight: 700;
+float: left;
+color: white;
+margin-top: 20px;
+margin-left:370px;
+}
+
+
+.button-order a:hover , .button-order2 a:hover {
+    background-position: 0px bottom;
+}
+.headcont p
+{
+	font-family: "Comfortaa",cursive;
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 62px;
+	text-align: center;
+}
+.headcont span
+{
+	font-size: 54px;
+	font-weight: bold;
+}
+.headcontmore
+{
+	float: left;
+	font-weight: bold;
+	margin: 11px 0px 0px 10px;
+	margin-top:360px;
+}
+.headcontmore ul li
+{
+	background: url('marker.png')/*tpa=http://marktshop.ru/marker.png*/ no-repeat scroll 0px center transparent;
+	line-height: 32px;
+	padding-left: 30px;
+}
+.headcontmore p
+{
+	margin: 19px 0px 0px;
+}
+.sep
+{
+	background: url('sep.jpg')/*tpa=http://marktshop.ru/sep.jpg*/ repeat-x scroll 0px 0px transparent;
+	clear: both;
+	height: 28px;
+	width: 100%;
+}
+.content
+{
+	position: relative;
+}
+.titleblock
+{
+	clear: both;
+	padding: 45px 0px;
+	text-align: center;
+}
+.titleblockr
+{
+	clear: both;
+	padding: 45px 0px 45px 300px;
+	text-align: center;
+}
+.scrwrapper
+{
+	float: left;
+	padding-bottom: 20px;
+	width: 1100px;
+}
+.scr1-1, .scr1-2, .scr1-3
+{
+	float: left;
+	margin: 0px 10px;
+	text-align: center;
+	width: 320px;
+}
+.scr1-2
+{
+	margin: 0px 50px;
+}
+.scr1-1 p, .scr1-2 p, .scr1-3 p
+{
+	margin-top: 20px;
+}
+.scr1-1 img
+{
+	border: 7px solid rgb(67, 200, 44);
+}
+.scr1-2 img
+{
+	border: 7px solid rgb(224, 33, 100);
+}
+.scr1-3 img
+{
+	border: 7px solid rgb(44, 173, 246);
+}
+.itemstwrap, .itemxtwrap, .itemst, .itemxt
+{
+	float: left;
+}
+.itemstwrap
+{
+	background: url('shadow.png')/*tpa=http://marktshop.ru/shadow.png*/ no-repeat scroll center bottom transparent;
+	margin: 0px 25px;
+	padding-bottom: 20px;
+}
+.itemxtwrap
+{
+	background: url('shadow.png')/*tpa=http://marktshop.ru/shadow.png*/ no-repeat scroll center bottom transparent;
+	margin: 0px 12px;
+	padding-bottom: 20px;
+}
+.itemst, .itemxt
+{
+	border: 1px solid rgb(241, 196, 53);
+	border-radius: 10px;
+	padding-bottom: 27px;
+	width: 323px;
+}
+.itemst
+{
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.itempic
+{
+	height: 220px;
+	margin: 27px 27px 20px;
+	width: 270px;
+}
+.itemxt
+{
+	background: none repeat scroll 0% 0% rgb(252, 251, 223);
+}
+.itemxt img
+{
+	margin: -22px 0px 0px 23px;
+	position: absolute;
+}
+.itemxt .itemname
+{
+	height: 66px;
+	overflow: hidden;
+	padding-top: 238px;
+}
+.itemname
+{
+	font-weight: bold;
+}
+.itemname, .itemdescr, .itemprice
+{
+	text-align: center;
+}
+.itemdescr
+{
+	height: 115px;
+	overflow: hidden;
+}
+.itemdescr
+{
+	line-height: 20px;
+	margin: 5px 24px 0px;
+}
+.itemdescr, .itemprice
+{
+	font-size: 16px;
+}
+.itemprice
+{
+	margin: 10px 24px 0px;
+}
+.itemprice span
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+.sale
+{
+	background: url('sale.png')/*tpa=http://marktshop.ru/sale.png*/ no-repeat scroll 0px 0px transparent;
+	box-sizing: border-box;
+	font-size: 14px;
+	height: 92px;
+	line-height: 18px;
+	margin: 130px 0px 0px 27px;
+	padding-top: 26px;
+	position: absolute;
+	text-align: center;
+	width: 92px;
+}
+.sale span
+{
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: bold;
+}
+.countdowntitle
+{
+	color: rgb(255, 0, 0);
+	font-size: 13px;
+	font-weight: bold;
+	margin: 10px 0px 0px 8px;
+	position: absolute;
+}
+.countdownbg
+{
+	background: url('countdownbg.png')/*tpa=http://marktshop.ru/countdownbg.png*/ no-repeat scroll 0px 0px transparent;
+	height: 52px;
+	margin: 20px 0px 0px -21px;
+	padding: 20px 0px 0px 24px;
+	position: absolute;
+	width: 180px;
+}
+.itembutton1, .itembutton2
+{
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	height: 38px;
+	margin: 12px 57px 0px;
+	padding: 8px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: 209px;
+}
+.itembutton1
+{
+	background: url('buttons.png')/*tpa=http://marktshop.ru/buttons.png*/ no-repeat scroll 0px 0px transparent;
+	display: block;
+}
+.itembutton1:hover
+{
+	background: url('buttons.png')/*tpa=http://marktshop.ru/buttons.png*/ no-repeat scroll 0px -38px transparent;
+	color: rgb(255, 255, 255);
+	display: block;
+}
+.itembutton2
+{
+	background: url('buttons.png')/*tpa=http://marktshop.ru/buttons.png*/ no-repeat scroll 0px -80px transparent;
+	display: block;
+}
+.itembutton2:hover
+{
+	background: url('buttons.png')/*tpa=http://marktshop.ru/buttons.png*/ no-repeat scroll 0px -118px transparent;
+	color: rgb(255, 255, 255);
+	display: block;
+}
+.delivery-wrap
+{
+	text-align: center;
+}
+.delivery
+{
+	background: url('car.png')/*tpa=http://marktshop.ru/car.png*/ no-repeat scroll 0px 0px transparent;
+	display: inline-block;
+	margin: 25px auto 0px;
+	padding: 0px 0px 0px 75px;
+	position: relative;
+}
+.delivery span
+{
+	color: rgb(30, 165, 76);
+	font-weight: bold;
+}
+.circle1, .circle2, .circle3, .circle4
+{
+	position: absolute;
+}
+.circle1
+{
+	left: -100px;
+	top: 0px;
+	z-index: -1;
+}
+.circle2
+{
+	left: -75px;
+	top: 300px;
+}
+.circle3
+{
+	right: -50px;
+	top: 50px;
+}
+.circle4
+{
+	right: -75px;
+	top: 450px;
+	z-index: -1;
+}
+.slideshow
+{
+	height: 300px;
+	margin: 0px 25px;
+	position: relative;
+	width: 1050px;
+	z-index: 65;
+}
+.slideshow .image
+{
+	border-width: 0px;
+	height: 300px;
+	left: 0px;
+	top: 0px;
+	width: 1050px;
+}
+.itembutton3
+{
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	font-size: 21px;
+	height: 51px;
+	margin: 42px auto 0px;
+	padding: 14px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: 554px;
+}
+.itembutton3
+{
+	background: url('buttons.png')/*tpa=http://marktshop.ru/buttons.png*/ no-repeat scroll 0px -160px transparent;
+	display: block;
+}
+.itembutton3:hover
+{
+	background: url('buttons.png')/*tpa=http://marktshop.ru/buttons.png*/ no-repeat scroll 0px -211px transparent;
+	color: rgb(255, 255, 255);
+	display: block;
+}
+.scr6-bg
+{
+	background: url('6-bg.jpg')/*tpa=http://marktshop.ru/6-bg.jpg*/ repeat scroll 0px 0px transparent;
+	float: left;
+	width: 100%;
+}
+.r-col1
+{
+	float: left;
+	padding: 0px 0px 0px 10px;
+	width: 540px;
+}
+.r-col2
+{
+	float: left;
+	padding: 0px;
+	width: 550px;
+}
+.reason-wrap
+{
+	clear: both;
+	float: left;
+	padding-bottom: 38px;
+}
+.reason-number
+{
+	background: url('rs-icon.png')/*tpa=http://marktshop.ru/rs-icon.png*/ no-repeat scroll 0px 0px transparent;
+	box-sizing: border-box;
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	height: 40px;
+	margin-top: 3px;
+	padding-top: 9px;
+	text-align: center;
+	width: 40px;
+}
+.reason-descr
+{
+	font-size: 21px;
+	line-height: 30px;
+	padding: 0px 0px 0px 60px;
+}
+.clear
+{
+	clear: both;
+}
+.scr7-bg
+{
+	background: url('7-bg.jpg')/*tpa=http://marktshop.ru/7-bg.jpg*/ no-repeat scroll center 0px transparent;
+	float: left;
+	width: 100%;
+}
+.reply
+{
+	float: left;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 18px;
+	width: 330px;
+}
+.reply img
+{
+	float: left;
+	padding: 0px 12px 0px 0px;
+}
+.reply span
+{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 22px;
+}
+.replywrap1
+{
+	float: right;
+	padding: 50px 15px 0px;
+}
+.replywrap2
+{
+	float: right;
+	padding: 50px 15px;
+}
+.reply
+{
+	padding: 0px 25px 0px 0px;
+}
+.quote1
+{
+	left: 0px;
+	position: absolute;
+	top: 335px;
+}
+.quote2
+{
+	position: absolute;
+	right: 15px;
+	top: 465px;
+}
+.scr8-bg
+{
+	background: url('8-bg.jpg')/*tpa=http://marktshop.ru/8-bg.jpg*/ no-repeat scroll center 50px transparent;
+	float: left;
+	height: 900px;
+	width: 100%;
+}
+.s8-col1
+{
+	float: left;
+	padding: 0px 30px 0px 0px;
+	width: 520px;
+}
+.s8-col2
+{
+	float: left;
+	padding: 0px 30px 0px 15px;
+	width: 505px;
+}
+.scr8title
+{
+	font-size: 28px;
+	text-align: center;
+}
+.delivery-1-wrap
+{
+	padding-top: 25px;
+}
+.delivery-1
+{
+	float: left;
+	padding: 0px 0px 12px;
+	width: 355px;
+}
+.delivery-1-1, .delivery-1-2, .delivery-1-3, .delivery-1-4, .delivery-1-5
+{
+	float: left;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	width: 325px;
+}
+.delivery-1-1
+{
+	background: url('ico01.png')/*tpa=http://marktshop.ru/ico01.png*/ no-repeat scroll 0px center transparent;
+}
+.delivery-1-2
+{
+	background: url('ico02.png')/*tpa=http://marktshop.ru/ico02.png*/ no-repeat scroll 0px center transparent;
+}
+.delivery-1-3
+{
+	background: url('ico03.png')/*tpa=http://marktshop.ru/ico03.png*/ no-repeat scroll 0px center transparent;
+}
+.delivery-1-4
+{
+	background: url('ico04.png')/*tpa=http://marktshop.ru/ico04.png*/ no-repeat scroll 0px center transparent;
+}
+.delivery-1-5
+{
+	background: url('ico05.png')/*tpa=http://marktshop.ru/ico05.png*/ no-repeat scroll 0px center transparent;
+}
+.delivery-img
+{
+	float: left;
+	padding: 25px 12px 0px 0px;
+}
+.delivery-2
+{
+	background: url('marker.png')/*tpa=http://marktshop.ru/marker.png*/ no-repeat scroll 0px 1px transparent;
+	float: left;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	width: 275px;
+}
+.scrwrapper8
+{
+	padding-bottom: 120px;
+}
+.delivery-3
+{
+	padding: 10px 0px 12px;
+}
+.footer
+{
+	height: 385px;
+}
+.sep1
+{
+	background: url('sep1.jpg')/*tpa=http://marktshop.ru/sep1.jpg*/ repeat-x scroll 0px 0px transparent;
+	clear: both;
+	height: 8px;
+	width: 100%;
+}
+.f-content
+{
+	background: url('girl-f.png')/*tpa=http://marktshop.ru/girl-f.png*/ no-repeat scroll 15px 0px transparent;
+	margin: 50px 0px 45px;
+	min-height: 280px;
+	padding: 0px 0px 0px 192px;
+}
+.f-content1
+{
+	font-weight: bold;
+	margin: 34px 0px 0px;
+}
+.f-content2
+{
+	margin: 15px 0px 0px;
+}
+.f-content3
+{
+	font-size: 16px;
+	margin: 26px 0px 0px;
+}
+.f-cont
+{
+	font-size: 24px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 0px;
+}
+.f-cont span
+{
+	font-size: 14px;
+}
+.phone-f
+{
+	position: absolute;
+	right: 397px;
+	top: 21px;
+}
+.phone2-f
+{
+	position: absolute;
+	right: 266px;
+	top: -35px;
+}
+.countdownHolder
+{
+	font: 16px/1.5 "PT Sans",sans-serif;
+	letter-spacing: -9px;
+	margin: 0px auto;
+	text-align: left;
+	width: 190px;
+}
+.position
+{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 1.05em;
+}
+.digit
+{
+	background-color: rgb(255, 255, 255);
+	border-radius: 0.2em;
+	color: rgb(0, 0, 0);
+	display: block;
+	letter-spacing: -1px;
+	position: absolute;
+	text-align: center;
+	width: 1em;
+}
+.digit.static
+{
+	background-image: -moz-linear-gradient(center bottom , rgb(255, 255, 255) 50%, rgb(255, 255, 255) 50%);
+	box-shadow: 1px 1px 1px rgba(4, 4, 4, 0.35);
+}
+.countDays
+{
+	display: none ! important;
+}
+.countDiv0
+{
+	display: none ! important;
+}
+.countHours
+{
+}
+.countDiv1
+{
+}
+.countMinutes
+{
+}
+.countDiv2
+{
+}
+.countSeconds
+{
+}
+.countDiv
+{
+	display: inline-block;
+	height: 1.6em;
+	position: relative;
+	width: 16px;
+}
+.countDiv:before, .countDiv:after
+{
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	content: "";
+	height: 3px;
+	left: 50%;
+	margin-left: -3px;
+	position: absolute;
+	top: 0.5em;
+	width: 3px;
+}
+.countDiv:after
+{
+	top: 0.9em;
+}
+@font-face
+{
+	font-family: "Comfortaa";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Comfortaa"), local("Comfortaa-Regular"), url('-dackuifgo7hfy3rr14c35bw1xu1rkptjj_0jans920.woff2')/*tpa=http://marktshop.ru/-dackuifgo7hfy3rr14c35bw1xu1rkptjj_0jans920.woff2*/ format("woff2"), url('-dackuifgo7hfy3rr14c37o3ldcazywl9si6vvxl-qu.woff')/*tpa=http://marktshop.ru/-dackuifgo7hfy3rr14c37o3ldcazywl9si6vvxl-qu.woff*/ format("woff");
+}
+@font-face
+{
+	font-family: "Comfortaa";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Comfortaa Bold"), local("Comfortaa-Bold"), url('fnd5xpykrf2tqdwwfwzji9wlihla9b101mdmthf3-q0.woff2')/*tpa=http://marktshop.ru/fnd5xpykrf2tqdwwfwzji9wlihla9b101mdmthf3-q0.woff2*/ format("woff2"), url('fnd5xpykrf2tqdwwfwzjiwcueixeafwbwxa4nogd_oo.woff')/*tpa=http://marktshop.ru/fnd5xpykrf2tqdwwfwzjiwcueixeafwbwxa4nogd_oo.woff*/ format("woff");
+}
+@font-face
+{
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("PT Sans"), local("PTSans-Regular"), url('bjvwev7_auvaq__ou8qihwluueptyoustqem5amljo4.woff2')/*tpa=http://marktshop.ru/bjvwev7_auvaq__ou8qihwluueptyoustqem5amljo4.woff2*/ format("woff2"), url('oot0dnfso2uxzt7dycin2gluueptyoustqem5amljo4.woff')/*tpa=http://marktshop.ru/oot0dnfso2uxzt7dycin2gluueptyoustqem5amljo4.woff*/ format("woff");
+}
+@font-face
+{
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("PT Sans Bold"), local("PTSans-Bold"), url('g46x4vh_khowaaa-hpngpgzydmxhdd8saj6oajtfsbi.woff2')/*tpa=http://marktshop.ru/g46x4vh_khowaaa-hpngpgzydmxhdd8saj6oajtfsbi.woff2*/ format("woff2"), url('g46x4vh_khowaaa-hpngpr3hpw3pgy2gai-ip7wpmi0.woff')/*tpa=http://marktshop.ru/g46x4vh_khowaaa-hpngpr3hpw3pgy2gai-ip7wpmi0.woff*/ format("woff");
+}
+#fancybox-loading
+{
+	background: none repeat scroll 0% 0% transparent;
+	cursor: pointer;
+	display: none;
+	height: 40px;
+	left: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+	overflow: hidden;
+	position: fixed;
+	top: 50%;
+	width: 40px;
+	z-index: 1104;
+}
+#fancybox-loading div
+{
+	background: url('fancy_loading.png')/*tpa=http://marktshop.ru/fancy_loading.png*/ no-repeat scroll 0% 0% transparent;
+	height: 480px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 40px;
+}
+#fancybox-overlay
+{
+	background: none repeat scroll 0% 0% rgb(0, 0, 0);
+	bottom: 0px;
+	display: none;
+	left: 0px;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 1100;
+}
+#fancybox-tmp
+{
+	border: 0px none;
+	display: none;
+	margin: 0px;
+	overflow: auto;
+	padding: 0px;
+}
+#fancybox-wrap
+{
+	display: none;
+	left: 0px;
+	margin: 0px;
+	padding: 20px;
+	position: absolute;
+	top: 0px;
+	z-index: 1101;
+}
+#fancybox-outer
+{
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+#fancybox-inner
+{
+	height: 1px;
+	left: 0px;
+	margin: 0px;
+	outline: medium none;
+	overflow: hidden;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	width: 1px;
+}
+#fancybox-close
+{
+	background: url('fancy_close.png')/*tpa=http://marktshop.ru/fancy_close.png*/ no-repeat scroll left top transparent;
+	cursor: pointer;
+	display: none;
+	height: 32px;
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	width: 32px;
+	z-index: 1103;
+}
+#fancybox-left, #fancybox-right
+{
+	background-image: url('blank.gif')/*tpa=http://marktshop.ru/blank.gif*/;
+	bottom: 0px;
+	cursor: pointer;
+	display: none;
+	height: 100%;
+	outline: medium none;
+	position: absolute;
+	width: 35%;
+	z-index: 1102;
+}
+#fancybox-left
+{
+	left: 0px;
+}
+#fancybox-right
+{
+	right: 0px;
+}
+#fancybox-left-ico, #fancybox-right-ico
+{
+	cursor: pointer;
+	display: block;
+	height: 30px;
+	left: -9999px;
+	margin-top: -15px;
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	z-index: 1102;
+}
+#fancybox-left-ico
+{
+	background: url('fancy_nav_left.png')/*tpa=http://marktshop.ru/fancy_nav_left.png*/ no-repeat scroll 0% 0% transparent;
+}
+#fancybox-right-ico
+{
+	background: url('fancy_nav_right.png')/*tpa=http://marktshop.ru/fancy_nav_right.png*/ no-repeat scroll 0% 0% transparent;
+}
+#fancybox-left:hover, #fancybox-right:hover
+{
+	visibility: visible;
+}
+#fancybox-left:hover span
+{
+	left: 20px;
+}
+#fancybox-right:hover span
+{
+	left: auto;
+	right: 20px;
+}
+div.fancy-bg
+{
+	border: 0px none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	z-index: 1001;
+}
+div#fancy-bg-n
+{
+	background: url('fancy_shadow_n.png')/*tpa=http://marktshop.ru/fancy_shadow_n.png*/ repeat-x scroll 0% 0% transparent;
+	height: 20px;
+	left: 0px;
+	top: -20px;
+	width: 100%;
+}
+div#fancy-bg-ne
+{
+	background: url('fancy_shadow_ne.png')/*tpa=http://marktshop.ru/fancy_shadow_ne.png*/ no-repeat scroll 0% 0% transparent;
+	height: 20px;
+	right: -20px;
+	top: -20px;
+	width: 20px;
+}
+div#fancy-bg-e
+{
+	background: url('fancy_shadow_e.png')/*tpa=http://marktshop.ru/fancy_shadow_e.png*/ repeat-y scroll 0% 0% transparent;
+	height: 100%;
+	right: -20px;
+	top: 0px;
+	width: 20px;
+}
+
+
+.f-content .button-order2 a{
+	font-size:23px;
+	float:right;
+		margin-left:-10px;
+	margin-right:30px;
+
+}
+div#fancy-bg-se
+{
+	background: url('fancy_shadow_se.png')/*tpa=http://marktshop.ru/fancy_shadow_se.png*/ no-repeat scroll 0% 0% transparent;
+	bottom: -20px;
+	height: 20px;
+	right: -20px;
+	width: 20px;
+}
+div#fancy-bg-s
+{
+	background: url('fancy_shadow_s.png')/*tpa=http://marktshop.ru/fancy_shadow_s.png*/ repeat-x scroll 0% 0% transparent;
+	bottom: -20px;
+	height: 20px;
+	left: 0px;
+	width: 100%;
+}
+div#fancy-bg-sw
+{
+	background: url('fancy_shadow_sw.png')/*tpa=http://marktshop.ru/fancy_shadow_sw.png*/ no-repeat scroll 0% 0% transparent;
+	bottom: -20px;
+	height: 20px;
+	left: -20px;
+	width: 20px;
+}
+div#fancy-bg-w
+{
+	background: url('fancy_shadow_w.png')/*tpa=http://marktshop.ru/fancy_shadow_w.png*/ repeat-y scroll 0% 0% transparent;
+	height: 100%;
+	left: -20px;
+	top: 0px;
+	width: 20px;
+}
+div#fancy-bg-nw
+{
+	background: url('fancy_shadow_nw.png')/*tpa=http://marktshop.ru/fancy_shadow_nw.png*/ no-repeat scroll 0% 0% transparent;
+	height: 20px;
+	left: -20px;
+	top: -20px;
+	width: 20px;
+}
+
+.itemname b {
+	color:red;
+}
+
+/* Формируем и позиционируем всплывающее окно */
+.popup { 
+    min-width: 320px;
+    max-width: 600px;
+    width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: block;
+    left: 0; right: 0;
+    opacity: 0;
+    padding: 15px;
+    position: fixed;
+    font-size: 14px;
+    top: 0;
+    visibility: hidden;
+    z-index: 10;
+    height:285px;
+/* Скругление углов окна  */	
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+/* Тень блока окна  */	
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+/* Устанавливаем эффект перехода появления окна */ 
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+/* Устанавливаем позицию появления окна */ 
+.overlay:target+.popup {
+    top: 20%;
+    opacity: 1;
+    visibility: visible;
+}
+/* Оформляем и позицонируем кнопку закрытия */
+.close {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #ccc;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    right: -13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;padding: 0;
+    top: -15px;
+    width: 24px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-size: 14px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+.close:hover {
+    background-color: rgba(64, 128, 128, 0.8);
+}
+.popup p, .popup div {
+    margin-bottom: 10px;
+}
+
+
+.pop-wrap .pop-form {
+width: 620px;
+position: absolute;
+margin-left:-10px;
+margin-top:-10px;
+}
+.counter-form {
+padding: 15px 30px 30px;
+border: 1px solid white;
+border-radius: 10px;
+background-image: -moz-linear-gradient(90deg, #f7fdeb 0%, #e8f5f8 100%);
+background-image: -webkit-linear-gradient(90deg, #f7fdeb 0%, #e8f5f8 100%);
+background-image: -ms-linear-gradient(90deg, #f7fdeb 0%, #e8f5f8 100%);
+box-shadow: 1px 1.732px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+ .help {
+display: inline-block;
+margin-bottom: 5px;
+line-height:60px;
+font-size:30px;
+text-align:center;
+}
+
+.help2 {
+display: inline-block;
+margin-bottom: 5px;
+font-size:20px;
+line-height:50px;
+text-align:center;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+
+.form-control {
+display: block;
+width: 90%;
+height: 50px;
+padding: 6px 12px;
+font-size: 39px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control[name=name] {
+background: url(inp-ico-name.png)/*tpa=http://marktshop.ru/inp-ico-name.png*/ 10px center no-repeat, white;
+}
+
+.form-control[name=phone] {
+background: url(inp-ico-phone.png)/*tpa=http://marktshop.ru/inp-ico-phone.png*/ 10px center no-repeat, white;
+}
+
+.form-control {
+	height: 50px;
+	padding-left: 35px;
+	color:black;
+}
+
+.custom-btn {
+display: inline-block;
+border: 1px solid red;
+border-radius: 8px;
+background: linear-gradient(to bottom, #ff2b2b 0%, #d50000 100%);
+box-shadow: 1px 1.732px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+width: 268px;
+height: 44px;
+font-size: 24px;
+color: white;
+line-height: 44px;
+text-align: center;
+text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3);
+cursor: pointer;
+}
+
+.counter-form .custom-btn {
+width: 100%;
+margin-top: 10px;
+height: 60px;
+font-size: 30px;
+line-height: 60px;
+}
+
+/* Форимируем слой затемнения фона */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+/* Позиционирум медиа-элементы внутри окна */
+.is-image {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  margin: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.about-shop {
+	margin-top:20px;
+	margin-right:60px;
+	text-align:justify;
+	
+	font-size:25px;
+	line-height:32px;
+}
+.about-shop b {
+	color: rgb(237, 44, 44);
+}
+/*embed, iframe {
+  width: 100%;
+  min-width: 320px;
+  max-width: 600px;
+ 
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}*/
